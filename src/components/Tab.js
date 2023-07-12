@@ -15,7 +15,7 @@ const Tab=({tabs,tabs1})=>{
         </div>
         <div>
             {tabs1.map((item)=>{
-                <li onClick={setClicked(item.content)}>{item.title}</li>
+                <li onClick={()=>setClicked(item.content)}>{item.title}</li>
             })}
             <p>{tabClicked}</p>
         </div>
