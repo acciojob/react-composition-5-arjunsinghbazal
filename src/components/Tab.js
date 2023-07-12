@@ -1,7 +1,7 @@
 import React from "react";
 
 const Tab=({tabs,tabs1})=>{
-    const [tabClicked,settabClicked]=React.useState("Content for Tab 1");
+    const [tabClicked,settabClicked]=React.useState("");
     const setClicked=(data)=>{
        settabClicked(data)
     }
